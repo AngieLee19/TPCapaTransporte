@@ -18,7 +18,7 @@ class Servidor {
             System.out.println("Escucho desde el puerto " + puerto);
             System.out.println();
 
-            for ( int numeroCliente = 0; numeroCliente < 3; numeroCliente++) {
+            for ( int numeroCliente = 1; numeroCliente <= 3; numeroCliente++) {
 
                 System.out.println("______________________________________________________________________");
                 System.out.println();
